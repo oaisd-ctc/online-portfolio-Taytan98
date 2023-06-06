@@ -1,0 +1,56 @@
+section {
+    height: 500px;
+    border: solid black 1px;
+}
+
+.hero {
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    flex:1;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+picture {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+}
+
+Htlm {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex:1;
+}
+
+body {
+    background-color: #1c1d25;
+}
+
+.headers {
+    text-align: center;
+}
