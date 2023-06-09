@@ -1,7 +1,7 @@
-section {
+/* section {
     height: 500px;
-    border: solid black 1px;
-}
+    
+} */
 
 .hero {
     height: 100vh;
@@ -41,6 +41,7 @@ Htlm {
 
 .container {
     display: flex;
+    border: solid black 1px;
 }
 
 .container>div {
@@ -53,4 +54,45 @@ body {
 
 .headers {
     text-align: center;
+    color: pink;
+}
+
+.navBar {
+    flex-direction: row;
+    text-align: center;
+}
+
+li, a {
+    color: pink;
+}
+
+li a:hover {
+    color: white;
+}
+
+.roofPic {
+    display: flex;
+    justify-content: right;
+}
+
+.EXPpic {
+    display: flex;
+    justify-content: center;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    color: pink;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.ABMtext {
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
 }
